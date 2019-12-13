@@ -28,11 +28,21 @@ public class MainTest {
         Des des = Des.getInstance();
         int i = 0;
         while ( i < 90) {
-            if (!((des.lancer() <= 10) && (des.lancer() >=0))) {
+            if (!((des.lancer(10) <= 10) && (des.lancer(10) >=0))) {
                 assertTrue(false);
             }
             i += 1;
         }
+        
+        i = 0;
+        
+        while ( i < 90) {
+            if (!((des.lancer(5) <= 10) && (des.lancer(5) >=0))) {
+                assertTrue(false);
+            }
+            i += 1;
+        }
+        
         assertTrue(true);
 
     }

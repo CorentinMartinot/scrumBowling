@@ -16,7 +16,7 @@ public class Des
     {   return INSTANCE;
     }
 
-    public int lancer() {
-        return(rd.nextInt(11));
+    public int lancer(int borne) {
+        return(rd.nextInt(borne+1));
     }
 }

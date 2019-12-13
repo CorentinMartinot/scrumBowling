@@ -13,12 +13,8 @@ public class Main {
         String buff="";
         do {
             buff=CLITools.readString(">> ",false);
-            if(buff.toUpperCase().equals("MENU")){
-                navigationState=NavigationState.Menu;
-            } else if (buff.toUpperCase().equals("INITGAME")) {
+            if (buff.toUpperCase().equals("INITGAME")) {
                 navigationState=NavigationState.InitGame;
-            } else if (buff.toUpperCase().equals("GAME")) {
-                navigationState=NavigationState.Game;
             } else if(buff.toUpperCase().equals("HIGHSCORE")){
                 navigationState=NavigationState.HighScore;
             } else if (buff.contentEquals("/q")) {

@@ -55,5 +55,16 @@ public class MainTest {
         assertTrue(true);
 
     }
+
+    @Test
+    public void test_add_Score()
+    {
+        Joueur joueur = new Joueur();
+        joueur.addScore(5,2);
+        assertTrue(joueur.getScore() == 7);
+        joueur.addScore(10,0);
+        assertTrue(joueur.getScore() == 17);
+
+    }
 }
 

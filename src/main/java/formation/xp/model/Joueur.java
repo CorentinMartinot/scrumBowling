@@ -4,10 +4,20 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Joueur {
+
+	public Joueur() {
+		this.score = 0;
+		this.nom = "";
+	}
+	public Joueur(String nom) {
+		this.nom = nom;
+		this.score = 0;
+	}
 	
 	/* ATTRIBUTS */
 	
 	private String nom;
+	private int score;
 	
 	/* METHODS */
 	
@@ -22,6 +32,10 @@ public class Joueur {
 		return true;
 
 	}
+
+	public void addScore(int quilles1, int quilles2) {
+		setScore(this.score + quilles1 + quilles2);
+	}
 	
 	/* GETTER */
 	
@@ -29,6 +43,7 @@ public class Joueur {
 	{
 		return nom;
 	}
+	public int getScore() { return score; }
 	
 	/* SETTER */
 	
@@ -36,6 +51,6 @@ public class Joueur {
 	{
 		this.nom = nom;
 	}
-	
+	protected void setScore(int score) { this.score = score; }
 	
 }

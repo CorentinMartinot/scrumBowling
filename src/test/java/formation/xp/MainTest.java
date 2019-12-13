@@ -4,6 +4,7 @@ import formation.xp.model.Des;
 import exception.NavigationException;
 
 import formation.xp.model.Joueur;
+import formation.xp.model.Lancer;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -65,6 +66,22 @@ public class MainTest {
         joueur.addScore(10,0);
         assertTrue(joueur.getScore() == 17);
 
+    }
+
+    @Test
+    public void test_lancer() {
+        Lancer lancer = new Lancer(10);
+        if (!((lancer.getScore() >= 0) && (lancer.getScore() <= 10))) {
+            assertTrue(false);
+            return;
+        }
+
+        Lancer lancer2 = new Lancer(0);
+        if (!((lancer2.getScore() >= 0) && (lancer2.getScore() <= 0))) {
+            assertTrue(false);
+            return;
+        }
+        assertTrue(true);
     }
 }
 

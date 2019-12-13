@@ -11,14 +11,14 @@ import utils.NavigationState;
 public class MainTest {
 
 
-    @Test()
+    @Test
     public void goToCreateGameTest() {
         
-        assertTrue(false);
+        
     }
 
 
-    @Test()
+    @Test
     public void goToHighScoreTest() {
 
         assertTrue(false);

@@ -2,11 +2,11 @@ package formation.xp;
 import utils.*;
 
 
-
 public class Main {
-    public static NavigationState navigationState;
-
-
+    private static NavigationState navigationState;
+    private CLITools cliTools = new CLITools(System.in);
+    
+    
     public static void main(String[] args) {
         navigationState=NavigationState.Menu;
         System.out.print("Bienvenue sur scrumBowling");
@@ -24,7 +24,6 @@ public class Main {
 
         } while (!buff.equals("/q"));
         CLITools.print("Bye");
-
 
     }
 }

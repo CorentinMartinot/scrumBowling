@@ -1,17 +1,23 @@
 package utils;
 
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class CLITools {
 
-    private static Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner;
+    
+    public CLITools(InputStream is){
+    	scanner = new Scanner(is);
+    }
+    
 
     /**
      * Affiche un message sur la sortie standard
      *
      * @param message
      */
-    public static void print(String message) {
+    public void print(String message) {
         System.out.println(message);
     }
 
@@ -21,7 +27,7 @@ public class CLITools {
      * @param message
      * @param mandatory
      */
-    public static String readString(String message, boolean mandatory) {
+    public String readString(String message, boolean mandatory) {
         print(message);
 
         String input = null;
@@ -42,7 +48,7 @@ public class CLITools {
     /**
      * Lit un message sur l'entrée standard
      */
-    public static String readString() {
+    public String readString() {
         String value = "";
         if (scanner.hasNextLine()) {
             value = scanner.nextLine();
@@ -58,7 +64,7 @@ public class CLITools {
      * @param message
      * @return
      */
-    public static int readInt(String message) {
+    public int readInt(String message) {
         print(message);
 
         String input = null;

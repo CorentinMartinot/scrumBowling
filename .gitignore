@@ -3,3 +3,5 @@
 .idea/
 # Fichiers générés par la compilation...
 target/
+.project
+/bin/

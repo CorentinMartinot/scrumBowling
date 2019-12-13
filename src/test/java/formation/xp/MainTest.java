@@ -1,16 +1,25 @@
 package formation.xp;
 
 import formation.xp.model.Des;
+import exception.NavigationException;
+
 import formation.xp.model.Joueur;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MainTest {
 	
     @Test
     public void test_aaa() {
         assertTrue(true);
+    }
+
+    @Test()
+    public void goToCreateGameTest() {
+        
+        assertTrue(false);
     }
     
     @Test
@@ -47,3 +56,4 @@ public class MainTest {
 
     }
 }
+

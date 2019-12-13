@@ -11,7 +11,7 @@ public class Joueur {
 	
 	/* METHODS */
 	
-	public boolean filterName(String nom)
+	public boolean setFilterName(String nom)
 	{
 		Pattern pattern = Pattern.compile("^[a-zA-Z]");
 		Matcher matcher = pattern.matcher(nom);

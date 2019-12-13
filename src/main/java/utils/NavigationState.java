@@ -4,5 +4,5 @@ public enum NavigationState{
     Menu,
     InitGame,
     Game,
-    HighScore
+    HighScore;
 }

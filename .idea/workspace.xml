@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="ba3fc2f4-266d-4d5b-8dc1-9045ecbe659f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/formation/xp/model/partie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formation/xp/model/partie.java" afterDir="false" />
+    </list>
+=======
     <list default="true" id="79b5ea6d-9d9c-43c7-9925-ebdd48faad40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/formation/xp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formation/xp/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/formation/xp/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/formation/xp/MainTest.java" afterDir="false" />
@@ -8,11 +14,14 @@
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+>>>>>>> menu
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
@@ -86,6 +95,7 @@
       </file>
     </leaf>
   </component>
+>>>>>>> menu
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -95,6 +105,8 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
+=======
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -112,6 +124,7 @@
     <option name="y" value="25" />
     <option name="width" value="927" />
     <option name="height" value="1055" />
+>>>>>>> menu
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -231,6 +244,20 @@
     <configuration />
   </component>
   <component name="TaskManager">
+<<<<<<< HEAD
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+=======
     <task active="true" id="Default" summary="Default task">
       <changelist id="79b5ea6d-9d9c-43c7-9925-ebdd48faad40" name="Default Changelist" comment="" />
       <created>1576227450594</created>
@@ -355,5 +382,6 @@
         </settings>
       </state>
     </states>
+>>>>>>> menu
   </component>
 </project>

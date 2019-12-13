@@ -16,10 +16,11 @@ public class Joueur {
 		Pattern pattern = Pattern.compile("^[a-zA-Z]");
 		Matcher matcher = pattern.matcher(nom);
 		if (!matcher.find()) {
-			setNom(nom);
-			return true;
+			return false;
 		}
-		return false;
+		setNom(nom);
+		return true;
+
 	}
 	
 	/* GETTER */
